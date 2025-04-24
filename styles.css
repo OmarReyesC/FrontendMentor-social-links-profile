@@ -5,6 +5,14 @@
     font-style: normal;
 }
 
+:root {
+    --color-primary-100: #2AF76E;
+    --color-dark-100: #2A2727;
+    --color-light-100: #ffffff;
+    --link-shadow-idle: 0px -2px 4px 0px rgba(0, 0, 0, 0.25) inset, 0px 2px 4px 0px rgba(255, 255, 255, 0.20) inset;
+    --glass-bkg-card: linear-gradient(163deg, rgba(239, 239, 239, 0.20) 0.67%, rgba(239, 239, 239, 0.08) 99.33%);
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -13,4 +21,28 @@
 
 body {
     font-family: 'Archivo', sans-serif;
+    min-height: 100svh;
+    background-color: var(--color-dark-100);
+    background-image: url("https://images.unsplash.com/photo-1450849608880-6f787542c88a?q=80&w=2921&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-size: cover;
 }
+
+/* Font styles */
+
+.title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.75rem;
+}
+.label {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem; 
+}
+.body {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem
+}
+
