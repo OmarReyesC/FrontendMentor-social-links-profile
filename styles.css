@@ -109,7 +109,8 @@ main {
     border-radius: 0.5rem;
     box-shadow: var(--link-shadow-idle);
 }
-.social-link:hover {
+.social-link:hover,
+.social-link:focus {
     background: var(--glass-bkg-item);
     color: var(--color-dark-100);
 }
@@ -126,6 +127,7 @@ main {
     border-radius: 100%;
     box-shadow: var(--link-shadow-idle);
 }
-.social-link:hover .icon-container {
+.social-link:hover .icon-container,
+.social-link:focus .icon-container {
     opacity: 1;
 }
