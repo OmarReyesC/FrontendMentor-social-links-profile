@@ -131,3 +131,18 @@ main {
 .social-link:focus .icon-container {
     opacity: 1;
 }
+
+.attribution {
+    text-align: center;
+    background: var(--color-dark-100);
+}
+
+.attribution a {
+    color: inherit;
+}
+
+@media (min-width: 50rem) {
+    .socials-card {
+        padding: 2.5rem;
+    }
+}
