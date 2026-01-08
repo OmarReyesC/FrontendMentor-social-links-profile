@@ -108,6 +108,7 @@ main {
     background: var(--color-dark-100);
     border-radius: 0.5rem;
     box-shadow: var(--link-shadow-idle);
+    transition: background 0.2s ease, color 0.2s ease;
 }
 .social-link:hover,
 .social-link:focus {
@@ -126,6 +127,7 @@ main {
     background-color: var(--color-dark-100);
     border-radius: 100%;
     box-shadow: var(--link-shadow-idle);
+    transition: opacity 0.2s ease;
 }
 .social-link:hover .icon-container,
 .social-link:focus .icon-container {
